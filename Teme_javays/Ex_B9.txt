@@ -1,0 +1,22 @@
+package diverse;
+
+public class Sumdiagmatr {
+
+	public static void main(String[] args) {
+		int[][] arr = { { 4, 6, 3 }, { 0, 2, 1 }, { 6, 8, 5 } };
+		int[][] arrs = { { 11, 7 }, { 4, -3 } };
+		int x = arrs[0][0];
+		int y = arrs[1][1];
+		int rez = x + y;
+		// int a, b, c;
+		int a = arr[0][0];
+		int b = arr[1][1];
+		int c = arr[2][2];
+		int sum = a + b + c;
+
+		System.out.println(sum);
+		System.out.println(rez);
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package sirneg;
+
+import java.util.Arrays;
+
+public class Minsir {
+
+	public static void main(String[] args) {
+		int[] arr = { 1, 12, 3, -5, 6, 7 };
+		Arrays.sort(arr); 
+		//logical of sorting number is as follows: min number wil be in first position
+		// and maximum will be in last position
+		
+		System.out.println("Minimum = " + arr[0]);
+		System.out.println("Maximum = " + arr[5]);
+
+	}
+
+}

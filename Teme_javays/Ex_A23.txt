@@ -1,0 +1,13 @@
+package tsr;
+
+public class EA23_Camelcase {
+
+	public static void main(String[] args) {
+		String str = "ana are mere";
+		String a = "ana";
+		String b = "ARE";
+		String c = "MERE";
+		System.out.println(a + b + c);
+	}
+
+}

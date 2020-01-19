@@ -1,0 +1,24 @@
+package tsr;
+
+import java.util.Scanner;
+
+public class EA23CamelcaseB {
+
+	public static void main(String[] args) {
+		System.out.println("Please insert first String:");
+		Scanner s1 = new Scanner(System.in);
+		String name1 = s1.next();
+		System.out.println("Please insert second String:");
+		Scanner s2 = new Scanner(System.in);
+		String name2 = s2.next();
+		System.out.println("Please insert third String:");
+		Scanner s3 = new Scanner(System.in);
+		String name3 = s3.next();
+		name1 = name1.toLowerCase();
+		name2 = name2.toUpperCase();
+		name3 = name3.toUpperCase();
+		System.out.println("Converting the Strings:");
+		System.out.println(name1 + name2 + name3);
+	}
+
+}

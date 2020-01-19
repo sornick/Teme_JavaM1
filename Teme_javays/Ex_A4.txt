@@ -1,0 +1,26 @@
+package diverse;
+
+import java.util.Scanner;
+
+public class Cmmmcnum {
+
+	public static void main(String[] args) {
+		System.out.println("Please insert first number: ");
+		Scanner s1 = new Scanner(System.in);
+		int a = s1.nextInt();
+		System.out.println("Please insert second number: ");
+		Scanner s2 = new Scanner(System.in);
+		int b = s2.nextInt();
+
+		int t = a * b;
+		while (a != b)
+			if (a > b) {
+				a = a - b;
+			} else {
+				b = b - a;
+
+			}
+		System.out.println("Cmmmc of the two numbers is: " + t / b);
+	}
+
+}

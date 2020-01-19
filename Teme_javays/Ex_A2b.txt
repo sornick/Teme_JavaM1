@@ -1,0 +1,27 @@
+package palindrome;
+
+public class Anotherpalindr {
+
+	public static void main(String[] args) {
+
+		int number = 547;
+		System.out.println("Number: " + number);
+		int temp;
+		int rest; // reminder, sau restul
+		int sum = 0;
+		temp = number;
+		while (number > 0) {
+
+			rest = number % 10;
+			sum = (sum * 10) + rest;
+			number = number / 10;
+		}
+		if (temp == sum)
+			System.out.println(" is a palindrome ");
+		else
+
+			System.out.println("is not a palindrome ");
+
+	}
+
+}

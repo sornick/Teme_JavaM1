@@ -1,0 +1,16 @@
+package tsr;
+
+import java.util.Scanner;
+
+public class Conv_CtoF {
+
+	public static void main(String[] args) {
+		System.out.println("Please insert the temperature: ");
+		Scanner s = new Scanner(System.in);
+		double temp = s.nextDouble();
+		double result = (temp - 32) * 5 / 9;
+		System.out.println("The converted temperature is " + result + " Celsius");
+
+	}
+
+}

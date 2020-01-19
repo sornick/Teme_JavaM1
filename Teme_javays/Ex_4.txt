@@ -1,0 +1,19 @@
+package tsr;
+
+import java.util.Scanner;
+
+public class D {
+
+	public static void main(String[] args) {
+		System.out.println("Please enter the price of product: ");
+		Scanner s = new Scanner(System.in);
+		int number1 = s.nextInt();
+		System.out.println("Please enter the valutar course: ");
+		Scanner s1 = new Scanner(System.in);
+		double number2 = s.nextDouble();
+		double converter = number1 * number2;
+		System.out.println("The conversion of EUR in RON is: " + converter + " RON");
+
+	}
+
+}

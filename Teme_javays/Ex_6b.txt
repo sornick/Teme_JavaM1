@@ -1,0 +1,19 @@
+package tsr;
+
+import java.util.Scanner;
+
+public class FvarB {
+
+	public static void main(String[] args) {
+		System.out.println("Please enter first number: ");
+		Scanner s = new Scanner(System.in);
+		double num1 = s.nextDouble();
+		System.out.println("Please enter second number: ");
+		Scanner s1 = new Scanner(System.in);
+		double num2 = s1.nextDouble();
+		double res = (num1 + num2) / 2;
+		System.out.println("The average of the numbers is: " + res);
+
+	}
+
+}

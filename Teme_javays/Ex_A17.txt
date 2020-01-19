@@ -1,0 +1,23 @@
+package tsr;
+
+public class EA17_duplicate {
+
+	public static void main(String[] args) {
+		int[] sir = { 1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 4 };
+		int s = sir.length;
+		for (int i = 0; i < s - 1; i++) {
+			for (int j = i + 1; j < sir.length; j++) {
+
+				if (sir[i] == sir[j]) {
+
+					sir[i] = 0;
+
+				}
+			}
+		}
+		for (int i = 0; i < s; i++) {
+			System.out.println(sir[i]);
+		}
+
+	}
+}

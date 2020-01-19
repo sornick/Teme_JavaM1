@@ -1,0 +1,27 @@
+package palindrome;
+
+import java.util.Scanner;
+
+public class Palindrnumber {
+
+	public static void main(String[] args) {
+		System.out.println("Please insert an integer number: ");
+		Scanner s = new Scanner(System.in);
+		int n = s.nextInt();
+
+		int or = n;
+		int rev = 0;
+		int r;
+		int i;
+		for (; n != 0; n /= 10) {
+			r = n % 10;
+			rev = rev * 10 + r;
+		}
+
+		if (or == rev) {
+			System.out.println(or + " is a palindrome.");
+		} else {
+			System.out.println(or + " is not a palindrome.");
+		}
+	}
+}

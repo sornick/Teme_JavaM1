@@ -1,0 +1,26 @@
+package tsr;
+
+import java.util.Scanner;
+
+public class H_pitagorice {
+
+	public static void main(String[] args) {
+		System.out.println("Please insert a value for a: ");
+		Scanner sa = new Scanner(System.in);
+		int a = sa.nextInt();
+		System.out.println("Please insert a value for b: ");
+		Scanner sb = new Scanner(System.in);
+		int b = sb.nextInt();
+		System.out.println("Please insert a value for c: ");
+		Scanner sc = new Scanner(System.in);
+		int c = sc.nextInt();
+
+		if (((c * c == a * a + b * b) && ((a + b + c) / 2 > 0)) && ((a <= b + c) && (b <= a + c) && (c <= a + b))) {
+			System.out.println("The Pitagora's theorem is respected");
+		} else {
+			System.out.println("The Pitagora's theorem is not respected");
+		}
+
+	}
+
+}

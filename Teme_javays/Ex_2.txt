@@ -1,0 +1,15 @@
+package tsr;
+
+import java.util.Scanner;
+
+public class Concat_Str {
+
+	public static void main(String[] args) {
+		System.out.println("Please insert your name:"); // for example "Ion"
+		Scanner sc = new Scanner(System.in);
+		String name = sc.nextLine();
+		System.out.println("Hello," + name + "!");
+
+	}
+
+}

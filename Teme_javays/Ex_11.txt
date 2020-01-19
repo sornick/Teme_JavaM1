@@ -1,0 +1,31 @@
+package tsr;
+
+import java.util.Scanner;
+
+public class G_evenornot {
+
+	public static void main(String[] args) {
+		System.out.println("Please enter first number: ");
+		Scanner s = new Scanner(System.in);
+		double number1 = s.nextDouble();
+		System.out.println("Please enter second number: ");
+		Scanner s1 = new Scanner(System.in);
+		double number2 = s1.nextDouble();
+
+		if (number1 % 2 == 0) { // even
+			boolean res1 = true;
+			System.out.println("Is first number even ? " + res1);
+		} else {
+			boolean res1 = false;// not even
+			System.out.println("Is first number even ? " + res1);
+		}
+		if (number2 % 2 == 0) { // even
+			boolean res2 = true;
+			System.out.println("Is second number even ? " + res2);
+		} else {
+			boolean res2 = false;// not even
+			System.out.println("Is second number even ? " + res2);
+		}
+	}
+
+}

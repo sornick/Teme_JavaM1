@@ -1,0 +1,18 @@
+package tsr;
+
+import java.util.Scanner;
+
+public class C {
+
+	public static void main(String[] args) {
+		System.out.println("Please insert a number: "); // for example "4"
+		Scanner sc = new Scanner(System.in);
+		int number = sc.nextInt();
+		int total1 = number * number;
+		int total2 = total1 * number;
+		System.out.println("The math result of number exp 2 is " + total1);
+		System.out.println("The math result of number exp 3 is " + total2);
+
+	}
+
+}

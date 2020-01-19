@@ -1,0 +1,23 @@
+package tsr;
+
+import java.util.Scanner;
+
+public class E {
+
+	public static void main(String[] args) {
+		System.out.println("Please enter the price:");
+		Scanner s = new Scanner(System.in);
+		double number1 = s.nextDouble();
+		System.out.println("Please enter the valutar course:");
+		Scanner s1 = new Scanner(System.in);
+		double number2 = s1.nextDouble();
+		double total1 = (double) (number1 / number2);// this is the amount with decimals
+		int total2 = (int) (number1 / number2);// this is integer of amount
+		double rest = total1 - total2;
+		int ron_rest = (int) (rest * number2);
+		System.out.println("The exchange of RON in EUR is: " + total2 + " EUR");
+		System.out.println("The reminder of transaction is: " + ron_rest + " RON");
+
+	}
+
+}

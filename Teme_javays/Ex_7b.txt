@@ -1,0 +1,12 @@
+public class TestTR7 {
+
+	public static void fahrenheitToCelsius() {
+
+	}
+
+	public static void main(String[] args) {
+		double T = 100;
+		double Tc = (T - 32) * 5 / 9;
+		System.out.println("fahrenheitToCelsius = " + Tc);
+	}
+}
